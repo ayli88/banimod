@@ -3,7 +3,6 @@
 {
   width: 100%;
   height: 685px;
-  position: relative;
 }
 
 
@@ -23,13 +22,12 @@
     width: 315px;
     height: 55px;
     object-fit: contain;
-    position: relative;
-    right: 0;
+   float: right;
   
 }
 
 
-.off > .myswiper3 {
+.off .swiper {
     width: 1420px;
     height: 530px;
     position: absolute;
@@ -37,14 +35,7 @@
     right: 0;
   }
 
-  .off  .myswiper3 .swiper-wrapper
-  {
-    width: 1420px;
-    height: 530px;
-    position: absolute;
-   
-  }
- .off .myswiper3 .swiper-slide {
+ .off .swiper .swiper-slide {
     text-align: center;
     font-size: 18px;
     /* background:gray; */
@@ -57,7 +48,7 @@
     overflow: hidden;
   }
 
-  .off .myswiper3 .swiper-slide img
+  .off .swiper .swiper-slide img
   {
     width: 330px;
     height: 390px;
@@ -65,9 +56,9 @@
     position: absolute;
     top: 0;
     border-radius: 5px;
-  }
+  } 
 
-  .off .myswiper3 .swiper-wrapper .swiper-slide::after
+  .off .swiper .swiper-wrapper .swiper-slide::after
   {
     content: attr(data-discount);
     display: inline-block;
@@ -91,12 +82,18 @@
  
 
 
-    /* .swiper-button-prev {
+    .swiper-button-prev {
       font-size: 12px;
       left: 20px;
       transform: rotate(90deg);
     }
-   */
+  
+    .swiper-button-next {
+      font-size: 12px;
+      left: 20px;
+      transform: rotate(-90deg);
+    }
+  
 
 
   .off .all
@@ -124,7 +121,7 @@
 
 
 
-  .off .myswiper3 .swiper-slide span
+  .off .swiper .swiper-slide span
   {
     text-align: right;
     color: black;
@@ -137,7 +134,7 @@
   
   }
 
-  .off .myswiper3 .swiper-slide .off-price
+  .off .swiper .swiper-slide .off-price
   {
     text-align: left;
     color: gray;
@@ -149,7 +146,7 @@
   
   }
 
-  .off .myswiper3 .swiper-slide span a
+  .off .swiper .swiper-slide span a
   {
    text-decoration: none;
    color: black;
@@ -158,7 +155,7 @@
    height: auto;
   }
 
-  .off .myswiper3 .swiper-slide .details
+  .off .swiper .swiper-slide .details
   {
     display: inline-block;
     width: 200px;
@@ -175,7 +172,7 @@
   
   }
 
-  .off .myswiper3 .swiper-slide .price
+  .off .swiper .swiper-slide .price
   {
     text-align: left;
     position: absolute;

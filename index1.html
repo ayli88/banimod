@@ -30,12 +30,14 @@
             </div>
             <div class="search">
               <div class="searchbar">
+                
                 <form action="">
                   <input
                     type="search"
                     name="search"
                     placeholder="جستجو در میان 700 برند معتبر"
                   />
+                  <img src="./image/icons8-search.svg" alt="">  
                 </form>
               </div>
             </div>
@@ -273,11 +275,7 @@
                           <img src="./image/menu/previous-svgrepo-com.svg" alt="">
                         </a>
                         </span>
-                        <span> <a href="#">سوییشرت و هودی زنانه 
-                          <img src="./image/menu/previous-svgrepo-com.svg" alt="">
-                        </a>
-                        </span>
-                       
+                     
                         <div class="last">
                         <img src="./image/menu/pic2.webp" alt="">
                         <img src="./image/menu/pic1.webp" alt="">
@@ -399,18 +397,7 @@
                           <img src="./image/menu/previous-svgrepo-com.svg" alt="">
                         </a>
                         </span>
-                        <span> <a href="#">سوییشرت و هودی مردانه 
-                          <img src="./image/menu/previous-svgrepo-com.svg" alt="">
-                        </a>
-                        </span>
-                        <span> <a href="#">سوییشرت و هودی مردانه 
-                          <img src="./image/menu/previous-svgrepo-com.svg" alt="">
-                        </a>
-                        </span>
-                        <span> <a href="#">سوییشرت و هودی مردانه 
-                          <img src="./image/menu/previous-svgrepo-com.svg" alt="">
-                        </a>
-                        </span>
+                    
                         <div class="last">
                           <img src="./image/menu/men1.webp" alt="">
                           <img src="./image/menu/men2.webp" alt="">
@@ -633,14 +620,14 @@
             <div><a href="./page2/index.html"> مد و فشن</a></div>
             <div><a href="#"> ساعت </a></div>
             <div><a href="#"> زیبایی و سلامت</a></div>
-            <div><a href="#">خانه مد</a></div>
-            <div class="e">ساعت</div>
-              <div class="f">کی تویز</div>
-              <div class="g">کاکااسپرت</div>
-              <div class="h">عطر و ادکلن</div>
-              <div class="border"><span></span>برندها</div>
-              <div class="j">کارت هدیه</div>
-              <div class="border"><span></span>فروش ویژه</div>
+            <div><a href="./page3/index.html">خانه مد</a></div>
+            <div class="e"><a href="#">ساعت</a></div>
+              <div class="f"><a href="#">کی تویز</a></div>
+              <div class="g"><a href="#">کاکااسپرت</a></div>
+              <div class="h"><a href="#">عطر و ادکلن</a></div>
+              <div class="border"><span></span><a href="#">برندها</a></div>
+              <div class="j"><a href="#">کارت هدیه</a></div>
+              <div class="border"><span></span><a href="#">فروش ویژه</a></div>
           </nav>
         </div>
       </div>
@@ -667,6 +654,8 @@
 
                 <div class="swiper-pagination"></div>
               </div>
+
+              
             
           </div>
 
@@ -690,27 +679,7 @@
                   <img src="./image/makeup.webp" alt="" />
                 </div>
               </div>
-              <div class="myswiper-button-next">
-                <svg width="50" height="50" xmlns="http://www.w3.org/2000/svg">
-                  <!-- Background circle -->
-                  <circle cx="25" cy="25" r="24" fill="whitesmoke" />
-
-                  <!-- Next icon circle -->
-                  <circle cx="25" cy="25" r="18" fill="black" />
-
-                  <!-- Next arrow icon -->
-                  <text
-                    x="50%"
-                    y="50%"
-                    font-size="16"
-                    fill="whitesmoke"
-                    text-anchor="middle"
-                    alignment-baseline="central"
-                  >
-                    &#x2192;
-                  </text>
-                </svg>
-              </div>
+              
               <div class="swiper-button-prev"></div>
               <div class="swiper-button-next"></div>
             </div>
@@ -1371,11 +1340,12 @@
       <!-- EndFooter  -->
     </div>
 
+
    <!-- Swiper JS -->
-   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script src="./swiper/swiper-bundle.min.js"></script>
   <!-- Initialize Swiper -->
   <script>
-    var swiper = new Swiper(".myswiper", {
+    var swiper = new Swiper(".mySwiper", {
       spaceBetween: 30,
       centeredSlides: true,
       autoplay: {
