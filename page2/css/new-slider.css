@@ -1,0 +1,164 @@
+.new-slider
+{
+
+    width: inherit;
+    overflow: hidden;
+
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    overflow: visible !important;
+  }
+
+  
+
+  .swiper-slide {
+    width: 330px;
+    
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 390px ;
+    object-fit: cover;
+position: relative;
+border-radius: 15px;
+  }
+
+  .swiper-slide> h1
+  {
+
+  }
+
+  .swiper-slide .hover
+  {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity .2s;
+  }
+
+  .swiper-slide:hover .hover
+  {
+    opacity: 1;
+  }
+
+  .swiper-slide .details
+  {
+    width: 100%;
+    height: 128px;
+    /* overflow: hidden; */
+    font-family: persian;
+    position: relative;
+    top: -94px;
+  }
+
+  .swiper-slide .details .line1, .swiper-slide .details .line2
+  {
+    width: 100%;
+    height: 33%;
+    display: flex;
+  }
+  .swiper-slide .details .line1 h2
+  {
+    text-align: right;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .swiper-slide .details .line2 p
+  {
+    text-align: right;
+    width: 45%;
+   height: 50px;
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .swiper-slide .details .line2 span
+  {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    color: var(--green);
+  }
+
+  .swiper-slide .details .size
+  {
+    width: 100%;
+    height: 33%;
+    display: flex;
+    
+  }
+
+  .swiper-slide .details .size .lms
+  {
+    width: 10%;
+    height: 60%;
+    border: 1px solid lightgray;
+   margin-left: 5px;
+   border-radius:5px;
+
+  }
+
+  .swiper-slide .extra
+  {
+    font-size: 35px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    line-height: 40px;
+    box-shadow: 2px 2px 5px #666;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  position: relative;
+    top: -350px;
+    right: 20px;
+    z-index: 1000;
+    opacity: 0;
+  }
+
+  .swiper-slide:hover .extra
+  {
+   opacity: 1;
+  }
+
+  .all
+  {
+    width: 200px;
+    height: 40px;
+    border: 2px solid #6666669e;
+    border-radius: 30px;
+    line-height: 40px;
+    text-align: center;
+    position: relative;
+    right: calc(50% - 100px);
+    top: -94px;
+    margin-top: 10px;
+    z-index: 2000;
+  }
+  .all a{
+    color: var(--green);
+    font-family: persian;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+
+  }

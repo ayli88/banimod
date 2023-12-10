@@ -1,0 +1,66 @@
+.catagory1 {
+  width: 1425px;
+  height: 245px;
+  position: absolute;
+  right: 20px;
+  text-align: center;
+  position: relative;
+  margin-bottom:10px;
+  
+}
+
+.catagory1 .product
+{
+  width: 190px;
+  height: 190px;
+  display: inline-block;
+  position: relative;
+  margin-right: 50px;
+  vertical-align: top;
+  overflow: hidden;
+ 
+}
+.catagory1 .cover {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* margin-top: calc((245px - 190px) / 2); */
+  border-radius: 10px;
+  background-color: rgba(211, 211, 211, 0);
+  z-index: 1;
+  transition: 300ms;
+  
+}
+
+
+.catagory1 .coat img,
+.catagory1 .boot img,
+.catagory1 .poliver img,
+.catagory1 .watch img,
+.catagory1 .perfume img {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  margin-top: 10px;
+  transition: 300ms;
+  overflow: hidden;
+}
+
+
+
+.catagory1 .product:hover img{
+    transform: scale(1.1,1.1);
+  
+}
+
+.catagory1 .product:hover .cover
+{
+  background-color: rgba(211, 211, 211, 0.2)
+}
+
+
+

@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header">
+          <div class="hbanner">
+            <a href=""><img src="./image/banner.gif" alt="" /> </a>
+          </div>
+
+          <div class="middle">
+            <div class="main">
+              <div class="sign">
+                <div class="signin">
+                  <a href="#" class=""> <p>ثبت نام / ورود</p></a>
+                </div>
+              </div>
+              <div class="search">
+                <div class="searchbar">
+                  <form action="">
+                    <input
+                      type="search"
+                      name="search"
+                      placeholder="جستجو در میان 700 برند معتبر"
+                    />
+                  </form>
+                </div>
+              </div>
+              <div class="logo">
+                <svg
+                  id="com"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="235.965"
+                  height="41.933"
+                  viewBox="0 0 235.965 41.933"
+                >
+                  <g id="_1ac977ff" data-name="#1ac977ff">
+                    <path
+                      id="Path"
+                      d="M.072,8.126C-.644,3.5,4.086-.847,8.6.142a25.307,25.307,0,0,1,5.148,1.886c.887,3.882,1.3,7.87,2.178,11.762,1.632-.525,3.506-.941,5.058.053a4.876,4.876,0,0,1,2.282,6.122c-.731,1.7-2.33,2.746-3.7,3.878-1.675,1.356-3.259,2.822-4.915,4.2C13.125,20.57,12.062,13,10.6,5.514c-.641-1.819-3.231-1.2-3.6.511,1.623,8.29,2.932,16.642,4.431,24.956.138.907.546,2.034,1.575,2.211.845.2,1.518-.42,2.126-.893,3.027-2.555,6.12-5.024,9.138-7.583a8.678,8.678,0,0,0,2.738-8.925,8.822,8.822,0,0,0-8.132-6.241C18.249,6.4,17.684,3.246,17.267.07,24.54,2.744,31.842,5.351,39.115,8.026a7.371,7.371,0,0,1,3.568,9.861,11.992,11.992,0,0,1-3.018,3.276C32.672,27.031,25.6,32.81,18.68,38.76c-1.8,1.476-3.734,3.233-6.211,3.161a7.245,7.245,0,0,1-7.482-6.093Q2.468,21.989.072,8.126Z"
+                      transform="translate(0 0)"
+                      fill="#1ac977"
+                    />
+                  </g>
+                  <g
+                    id="_21201fff"
+                    data-name="#21201fff"
+                    transform="translate(48.062 2.143)"
+                  >
+                    <path
+                      id="Path-2"
+                      data-name="Path"
+                      d="M0,.015Q1.75-.007,3.5,0c-.01,4.455,0,8.911-.014,13.366A10.684,10.684,0,0,1,10.4,10.96a10.168,10.168,0,0,1,9.893,8.481,10.066,10.066,0,0,1-5.18,10.511c-2.466,1.433-5.4,1.28-8.141,1.227,0-1.151,0-2.292,0-3.438,2.366-.038,5,.277,7.032-1.232a6.622,6.622,0,0,0,1.947-8.853,6.8,6.8,0,0,0-9.76-1.915A7.286,7.286,0,0,0,3.513,21.4c-.052,3.266.01,6.533-.014,9.8-1.166-.01-2.333,0-3.494,0Q.019,15.606,0,.015Z"
+                      transform="translate(0 0.032)"
+                      fill="#21201f"
+                    />
+                    <path
+                      id="Path-3"
+                      data-name="Path"
+                      d="M1.935.1A2.6,2.6,0,0,1,4.977,3.638a2.641,2.641,0,0,1-4.509.435A2.6,2.6,0,0,1,1.935.1Z"
+                      transform="translate(70.958 0)"
+                      fill="#21201f"
+                    />
+                    <path
+                      id="Path-4"
+                      data-name="Path"
+                      d="M16.937.007q1.742-.014,3.49,0,0,10.472,0,20.949a10.318,10.318,0,0,1-3.737,7.956A10.226,10.226,0,0,1,.026,20.388,10.141,10.141,0,0,1,6.51,11.635c2.18-.907,4.575-.64,6.875-.692q-.007,1.719.014,3.453c-2.49-.053-5.242-.167-7.313,1.48-3.033,2.1-3.347,6.862-.909,9.536a6.714,6.714,0,0,0,11.75-4.5Q16.941,10.458,16.937.007Z"
+                      transform="translate(143.532 0.03)"
+                      fill="#21201f"
+                    />
+                    <path
+                      id="Path-5"
+                      data-name="Path"
+                      d="M4.171,1.956a10.406,10.406,0,0,1,9.964-1.2A10.168,10.168,0,0,1,20.41,9.945c.033,3.429-.014,6.862.019,10.3-1.166,0-2.333,0-3.5,0,0-3.271.024-6.542,0-9.813-.014-2.946-1.919-6-4.88-6.7A6.726,6.726,0,0,0,3.638,8.975,6.666,6.666,0,0,0,7.356,16.11c1.895.926,4.047.621,6.084.678-.014,1.151-.014,2.3-.014,3.457-2.038-.038-4.123.172-6.1-.43A10.085,10.085,0,0,1,4.171,1.956Z"
+                      transform="translate(24.013 10.98)"
+                      fill="#21201f"
+                    />
+                    <path
+                      id="Path-6"
+                      data-name="Path"
+                      d="M0,.036q1.764-.014,3.537,0c-.01.783-.014,1.571-.019,2.364A10.816,10.816,0,0,1,11.093.05a10.151,10.151,0,0,1,9.3,9.474c.067,3.582.01,7.163.019,10.745q-1.75-.014-3.49-.01c0-3.419.052-6.843-.014-10.257a6.681,6.681,0,0,0-13.33-.454c-.086,3.567-.029,7.139-.038,10.706-1.181,0-2.361,0-3.537,0Q.007,10.145,0,.036Z"
+                      transform="translate(47.899 10.965)"
+                      fill="#21201f"
+                    />
+                    <path
+                      id="Path-7"
+                      data-name="Path"
+                      d="M.014,0Q1.742.007,3.48.01V20.267c-1.162,0-2.319,0-3.48-.01C.024,13.5.01,6.752.014,0Z"
+                      transform="translate(71.822 10.958)"
+                      fill="#21201f"
+                    />
+                    <path
+                      id="Path-8"
+                      data-name="Path"
+                      d="M0,.02c1.176,0,2.352,0,3.533.01,0,.788,0,1.581,0,2.378A10.574,10.574,0,0,1,10.093.016a10.389,10.389,0,0,1,8.574,4.341A10.383,10.383,0,0,1,27.76.035a10.172,10.172,0,0,1,9.531,9.412c.11,3.6,0,7.2.048,10.8q-1.771.007-3.537,0c0-3.414.033-6.834-.019-10.243a6.668,6.668,0,0,0-13.3-.516c-.219,3.577-.052,7.163-.057,10.745-1.176,0-2.342,0-3.513.01,0-3.6.2-7.206-.057-10.8A6.672,6.672,0,0,0,3.571,9.59c-.081,3.548-.024,7.1-.033,10.649L0,20.254Q.014,10.139,0,.02Z"
+                      transform="translate(78.816 10.971)"
+                      fill="#21201f"
+                    />
+                    <path
+                      id="Shape"
+                      d="M10.35,20.258c-.179,0-.36-.005-.539-.016a9.894,9.894,0,0,1-6.636-2.827A10,10,0,0,1,1.921,4.24,9.974,9.974,0,0,1,7.622.314,11.01,11.01,0,0,1,10.233,0a10.166,10.166,0,0,1,9.506,6.455A10.034,10.034,0,0,1,16.6,18,10.124,10.124,0,0,1,10.35,20.258Zm-.093-16.8h0a5.782,5.782,0,0,0-1.25.136,6.706,6.706,0,0,0-5.36,5.382,6.352,6.352,0,0,0,1.013,4.8,6.493,6.493,0,0,0,4.147,2.818,5.8,5.8,0,0,0,1.441.18A6.817,6.817,0,0,0,14.8,14.931a6.141,6.141,0,0,0,2.07-4.441,6.087,6.087,0,0,0-1.631-4.732,6.852,6.852,0,0,0-4.979-2.305Z"
+                      transform="translate(119.621 10.959)"
+                      fill="#21201f"
+                    />
+                    <path
+                      id="Path-9"
+                      data-name="Path"
+                      d="M.173,8.16A10.209,10.209,0,0,1,18.316,4.067c2.142,2.6,2.176,6.1,2.042,9.3-4.456-.019-8.912,0-13.368,0,0-1.151,0-2.3,0-3.443,3.333-.024,6.67.038,10.007-.043A7.325,7.325,0,0,0,12.77,4.053a6.705,6.705,0,0,0-9.1,4.584,6.689,6.689,0,0,0,5.818,8.1c3.618.205,7.246.024,10.874.1q.007,1.726.01,3.457c-3.471-.038-6.941.01-10.412-.019a10.32,10.32,0,0,1-8.893-5.535A10.342,10.342,0,0,1,.173,8.16Z"
+                      transform="translate(167.499 10.864)"
+                      fill="#21201f"
+                    />
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="menue">
+              <nav>
+                <ul>
+                  <li class="A">
+                    دسته بندی کالاها
+                    <div class="underline"></div>
+                  </li>
+                  <li class="B">مد و فشن</li>
+                  <li class="c">خانه مد</li>
+                  <li class="d">زیبایی و سلامت</li>
+                  <li class="e">ساعت</li>
+                  <li class="f">کی تویز</li>
+                  <li class="g">کاکااسپرت</li>
+                  <li class="h">عطر و ادکلن</li>
+                  <li class="border"><span></span>برندها</li>
+                  <li class="j">کارت هدیه</li>
+                  <li class="border"><span></span>فروش ویژه</li>
+                </ul>
+              </nav>
+            </div> -->
+          <div class="menue">
+            <nav>
+              <div class="active">
+                <a href="#"> دسته بندی کالاها</a>
+                <div class="submenu">
+                  <div class="right">
+                    <div>
+                      <a href="#">جدیدترین ها</a>
+                      <div class="sub2 subActive">
+                        <h5>همه محصولات جدیدترین ها></h5>
+                        <span>مردانه</span>
+                        <span>زنانه</span>
+                        <span>بچگانه</span>
+                        <span>کاکااسپرت</span>
+                        <span>عطر و ادکلن</span>
+                        <span>آرایشی و بهداشتی</span>
+                        <span>اکسسوری</span>
+                        <span>لوازم خانه</span>
+                        <span>کی تویز</span>
+                      </div>
+                    </div>
+                    <div>
+                      <a href="#">خانه مد</a>
+                      <div class="sub2">
+                        <h1>خانه مد</h1>
+                        <span></span>
+                      </div>
+                    </div>
+                    <div>
+                      <a href="#">زنانه</a>
+                      <div class="sub2">
+                        <h5>همه محصولات زنانه></h5>
+                        <h6>لباس زنانه ></h6>
+                        <span>سوییشرت و هودی زنانه</span>
+                        
+                      </div>
+                    </div>
+                    <div>
+                      <a href="#">مردانه</a>
+                      <div class="sub2">
+                        <h1>همه محصولات</h1>
+                        <span></span>
+                      </div>
+                    </div>
+                    <div>
+                      <a href="#">مردانه</a>
+                    </div>
+                    <div>
+                      <a href="#">بچگانه</a>
+                      <div class="sub2">
+                        <h1>بچگانه</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div><a href="./main page.html"> مد و فشن</a></div>
+              <div><a href="#"> ساعت </a></div>
+              <div><a href="#"> زیبایی و سلامت</a></div>
+              <div><a href="#">خانه مد</a></div>
+              <div class="e">ساعت</div>
+              <div class="f">کی تویز</div>
+              <div class="g">کاکااسپرت</div>
+              <div class="h">عطر و ادکلن</div>
+              <div class="border"><span></span>برندها</div>
+              <div class="j">کارت هدیه</div>
+              <div class="border"><span></span>فروش ویژه</div>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <div class="intro">
+        <!-- Swiper -->
+        <div class="slider-container">
+        <div class="swiper intro-silder">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./images/slider1/first.webp" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/slider1/second.webp" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/slider1/third.webp" alt="" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+      <div class="main">
+        <h1>دسته بندی</h1>
+        <div class="catagory">
+          <div class="option">
+            <a href="#"><img src="./images/catagory/jacket.webp" alt="" /></a>
+          </div>
+          <div class="option">
+            <a href="#"><img src="./images/catagory/polliver.webp" alt="" /></a>
+          </div>
+          <div class="option">
+            <a href="#"><img src="./images/catagory/boots.webp" alt="" /></a>
+          </div>
+          <div class="option">
+            <a href="#"><img src="./images/catagory/pants.webp" alt="" /></a>
+          </div>
+          <div class="option">
+            <a href="#"
+              ><img src="./images/catagory/accessory.webp" alt=""
+            /></a>
+          </div>
+          <div class="option">
+            <a href="#"><img src="./images/catagory/sports.webp" alt="" /></a>
+          </div>
+          <div class="option">
+            <a href="#"><img src="./images/catagory/jewelry.webp" alt="" /></a>
+          </div>
+        </div>
+
+        <div class="catagory2">
+          <div class="option2">
+            <a href="#"><img src="./images/catagory2/watch.webp" alt="" /></a>
+          </div>
+          <div class="option2">
+            <a href="#"><img src="./images/catagory2/perdume.webp" alt="" /></a>
+          </div>
+          <div class="option2">
+            <a href="#"><img src="./images/catagory2/toys.webp" alt="" /></a>
+          </div>
+          <div class="option2">
+            <a href="#"
+              ><img src="./images/catagory2/giftcard.webp" alt=""
+            /></a>
+          </div>
+        </div>
+
+        <!-- Swiper -->
+        <div class="new-slider">
+        <div class="swiper new">
+          <h1>جدیدترین</h1>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#"><img src="./images/slider2/1.2.webp" alt="" /></a>
+              <a href="#"
+                ><img class="hover" src="./images/slider2/1.1.webp" alt=""
+              /></a>
+              <div class="extra">&#9825;</div>
+              <div class="extra">&#128065;</div>
+              <div class="details">
+                <div class="line1">
+                  <h2>Name</h2>
+                </div>
+                <div class="line2">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Nesciunt, inventore ullam! Rem alias adipisci totam veniam
+                    ipsam! Nemo, animi voluptates.
+                  </p>
+                  <span>588,000 تومان</span>
+                </div>
+                <div class="size">
+                  <div class="lms">S</div>
+                  <div class="lms">L</div>
+                  <div class="lms">Xl</div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"><img src="./images/slider2/1.2.webp" alt="" /></a>
+              <a href="#"
+                ><img class="hover" src="./images/slider2/1.1.webp" alt=""
+              /></a>
+              <div class="extra">&#9825;</div>
+              <div class="extra">&#128065;</div>
+              <div class="details">
+                <div class="line1">
+                  <h2>Name</h2>
+                </div>
+                <div class="line2">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Nesciunt, inventore ullam! Rem alias adipisci totam veniam
+                    ipsam! Nemo, animi voluptates.
+                  </p>
+                  <span>588,000 تومان</span>
+                </div>
+                <div class="size">
+                  <div class="lms">S</div>
+                  <div class="lms">L</div>
+                  <div class="lms">Xl</div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"><img src="./images/slider2/1.2.webp" alt="" /></a>
+              <a href="#"
+                ><img class="hover" src="./images/slider2/1.1.webp" alt=""
+              /></a>
+              <div class="extra">&#9825;</div>
+              <div class="extra">&#128065;</div>
+              <div class="details">
+                <div class="line1">
+                  <h2>Name</h2>
+                </div>
+                <div class="line2">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Nesciunt, inventore ullam! Rem alias adipisci totam veniam
+                    ipsam! Nemo, animi voluptates.
+                  </p>
+                  <span>588,000 تومان</span>
+                </div>
+                <div class="size">
+                  <div class="lms">S</div>
+                  <div class="lms">L</div>
+                  <div class="lms">Xl</div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"><img src="./images/slider2/1.2.webp" alt="" /></a>
+              <a href="#"
+                ><img class="hover" src="./images/slider2/1.1.webp" alt=""
+              /></a>
+              <div class="extra">&#9825;</div>
+              <div class="extra">&#128065;</div>
+              <div class="details">
+                <div class="line1">
+                  <h2>Name</h2>
+                </div>
+                <div class="line2">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Nesciunt, inventore ullam! Rem alias adipisci totam veniam
+                    ipsam! Nemo, animi voluptates.
+                  </p>
+                  <span>588,000 تومان</span>
+                </div>
+                <div class="size">
+                  <div class="lms">S</div>
+                  <div class="lms">L</div>
+                  <div class="lms">Xl</div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"><img src="./images/slider2/1.2.webp" alt="" /></a>
+              <a href="#"
+                ><img class="hover" src="./images/slider2/1.1.webp" alt=""
+              /></a>
+              <div class="extra">&#9825;</div>
+              <div class="extra">&#128065;</div>
+              <div class="details">
+                <div class="line1">
+                  <h2>Name</h2>
+                </div>
+                <div class="line2">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Nesciunt, inventore ullam! Rem alias adipisci totam veniam
+                    ipsam! Nemo, animi voluptates.
+                  </p>
+                  <span>588,000 تومان</span>
+                </div>
+                <div class="size">
+                  <div class="lms">S</div>
+                  <div class="lms">L</div>
+                  <div class="lms">Xl</div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"><img src="./images/slider2/1.2.webp" alt="" /></a>
+              <a href="#"
+                ><img class="hover" src="./images/slider2/1.1.webp" alt=""
+              /></a>
+              <div class="extra">&#9825;</div>
+              <div class="extra">&#128065;</div>
+              <div class="details">
+                <div class="line1">
+                  <h2>Name</h2>
+                </div>
+                <div class="line2">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Nesciunt, inventore ullam! Rem alias adipisci totam veniam
+                    ipsam! Nemo, animi voluptates.
+                  </p>
+                  <span>588,000 تومان</span>
+                </div>
+                <div class="size">
+                  <div class="lms">S</div>
+                  <div class="lms">L</div>
+                  <div class="lms">Xl</div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"><img src="./images/slider2/1.2.webp" alt="" /></a>
+              <a href="#"
+                ><img class="hover" src="./images/slider2/1.1.webp" alt=""
+              /></a>
+              <div class="extra">&#9825;</div>
+              <div class="extra">&#128065;</div>
+              <div class="details">
+                <div class="line1">
+                  <h2>Name</h2>
+                </div>
+                <div class="line2">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Nesciunt, inventore ullam! Rem alias adipisci totam veniam
+                    ipsam! Nemo, animi voluptates.
+                  </p>
+                  <span>588,000 تومان</span>
+                </div>
+                <div class="size">
+                  <div class="lms">S</div>
+                  <div class="lms">L</div>
+                  <div class="lms">Xl</div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"><img src="./images/slider2/1.2.webp" alt="" /></a>
+              <a href="#"
+                ><img class="hover" src="./images/slider2/1.1.webp" alt=""
+              /></a>
+              <div class="extra">&#9825;</div>
+              <div class="extra">&#128065;</div>
+              <div class="details">
+                <div class="line1">
+                  <h2>Name</h2>
+                </div>
+                <div class="line2">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Nesciunt, inventore ullam! Rem alias adipisci totam veniam
+                    ipsam! Nemo, animi voluptates.
+                  </p>
+                  <span>588,000 تومان</span>
+                </div>
+                <div class="size">
+                  <div class="lms">S</div>
+                  <div class="lms">L</div>
+                  <div class="lms">Xl</div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="all"><a href="#">مشاهده همه</a></div>
+        </div>
+      </div>
+        <div class="catagory3">
+          <div class="pic1"><img src="./images/catagory3/right.webp" alt=""></div>
+          <div class="pic1"><img src="./images/catagory3/left.webp" alt=""></div>
+          <div class="pic2"><img src="./images/catagory3/center.webp" alt=""></div>
+        </div>
+      </div>
+
+       <footer>
+        <div class="footer">
+          <div class="column">
+            <h1>خرید</h1>
+            <ul>
+              <li>بانی مد</li>
+              <li>لباس مردانه</li>
+              <li>لباس زنانه</li>
+              <li>لباس بچگانه</li>
+              <li>خرید لوازم آرایشی</li>
+            </ul>
+          </div>
+          <div class="column">
+            <h1>خدمات مشتریان</h1>
+            <ul>
+              <li>پرسش های متداول</li>
+              <li>شرایط بازگشت</li>
+              <li>راهنمای خرید</li>
+              <li>فروش B2B</li>
+              <li>سنحش رضایتمندی</li>
+            </ul>
+          </div>
+          <div class="column">
+            <h1>اطلاعات بانی مد</h1>
+            <ul>
+              <li>درباره ما</li>
+              <li>قوانین و مقررات</li>
+              <li>تماس با ما</li>
+              <li>فرصت های شغلی</li>
+              <li>همکاری تجاری</li>
+            </ul>
+          </div>
+          <div class="column1">
+            <h1>میزبان صدای گرمتان هستیم</h1>
+            <ul>
+              <li>7 روز هفته - 24 ساعته</li>
+              <li><span>تلفن</span>: 021-49215</li>
+              <li><span>پیامک: </span>1001654 </li>
+              <li>ایمیل :customer@banimode.com</li>
+            </ul>
+          </div>
+  
+          <div class="column-last">
+            <div class="logo">
+              <svg
+                id="com"
+                xmlns="http://www.w3.org/2000/svg"
+                width="235.965"
+                height="41.933"
+                viewBox="0 0 235.965 41.933"
+              >
+                <g id="_1ac977ff" data-name="#1ac977ff">
+                  <path
+                    id="Path"
+                    d="M.072,8.126C-.644,3.5,4.086-.847,8.6.142a25.307,25.307,0,0,1,5.148,1.886c.887,3.882,1.3,7.87,2.178,11.762,1.632-.525,3.506-.941,5.058.053a4.876,4.876,0,0,1,2.282,6.122c-.731,1.7-2.33,2.746-3.7,3.878-1.675,1.356-3.259,2.822-4.915,4.2C13.125,20.57,12.062,13,10.6,5.514c-.641-1.819-3.231-1.2-3.6.511,1.623,8.29,2.932,16.642,4.431,24.956.138.907.546,2.034,1.575,2.211.845.2,1.518-.42,2.126-.893,3.027-2.555,6.12-5.024,9.138-7.583a8.678,8.678,0,0,0,2.738-8.925,8.822,8.822,0,0,0-8.132-6.241C18.249,6.4,17.684,3.246,17.267.07,24.54,2.744,31.842,5.351,39.115,8.026a7.371,7.371,0,0,1,3.568,9.861,11.992,11.992,0,0,1-3.018,3.276C32.672,27.031,25.6,32.81,18.68,38.76c-1.8,1.476-3.734,3.233-6.211,3.161a7.245,7.245,0,0,1-7.482-6.093Q2.468,21.989.072,8.126Z"
+                    transform="translate(0 0)"
+                    fill="#1ac977"
+                  />
+                </g>
+                <g
+                  id="_21201fff"
+                  data-name="#21201fff"
+                  transform="translate(48.062 2.143)"
+                >
+                  <path
+                    id="Path-2"
+                    data-name="Path"
+                    d="M0,.015Q1.75-.007,3.5,0c-.01,4.455,0,8.911-.014,13.366A10.684,10.684,0,0,1,10.4,10.96a10.168,10.168,0,0,1,9.893,8.481,10.066,10.066,0,0,1-5.18,10.511c-2.466,1.433-5.4,1.28-8.141,1.227,0-1.151,0-2.292,0-3.438,2.366-.038,5,.277,7.032-1.232a6.622,6.622,0,0,0,1.947-8.853,6.8,6.8,0,0,0-9.76-1.915A7.286,7.286,0,0,0,3.513,21.4c-.052,3.266.01,6.533-.014,9.8-1.166-.01-2.333,0-3.494,0Q.019,15.606,0,.015Z"
+                    transform="translate(0 0.032)"
+                    fill="#21201f"
+                  />
+                  <path
+                    id="Path-3"
+                    data-name="Path"
+                    d="M1.935.1A2.6,2.6,0,0,1,4.977,3.638a2.641,2.641,0,0,1-4.509.435A2.6,2.6,0,0,1,1.935.1Z"
+                    transform="translate(70.958 0)"
+                    fill="#21201f"
+                  />
+                  <path
+                    id="Path-4"
+                    data-name="Path"
+                    d="M16.937.007q1.742-.014,3.49,0,0,10.472,0,20.949a10.318,10.318,0,0,1-3.737,7.956A10.226,10.226,0,0,1,.026,20.388,10.141,10.141,0,0,1,6.51,11.635c2.18-.907,4.575-.64,6.875-.692q-.007,1.719.014,3.453c-2.49-.053-5.242-.167-7.313,1.48-3.033,2.1-3.347,6.862-.909,9.536a6.714,6.714,0,0,0,11.75-4.5Q16.941,10.458,16.937.007Z"
+                    transform="translate(143.532 0.03)"
+                    fill="#21201f"
+                  />
+                  <path
+                    id="Path-5"
+                    data-name="Path"
+                    d="M4.171,1.956a10.406,10.406,0,0,1,9.964-1.2A10.168,10.168,0,0,1,20.41,9.945c.033,3.429-.014,6.862.019,10.3-1.166,0-2.333,0-3.5,0,0-3.271.024-6.542,0-9.813-.014-2.946-1.919-6-4.88-6.7A6.726,6.726,0,0,0,3.638,8.975,6.666,6.666,0,0,0,7.356,16.11c1.895.926,4.047.621,6.084.678-.014,1.151-.014,2.3-.014,3.457-2.038-.038-4.123.172-6.1-.43A10.085,10.085,0,0,1,4.171,1.956Z"
+                    transform="translate(24.013 10.98)"
+                    fill="#21201f"
+                  />
+                  <path
+                    id="Path-6"
+                    data-name="Path"
+                    d="M0,.036q1.764-.014,3.537,0c-.01.783-.014,1.571-.019,2.364A10.816,10.816,0,0,1,11.093.05a10.151,10.151,0,0,1,9.3,9.474c.067,3.582.01,7.163.019,10.745q-1.75-.014-3.49-.01c0-3.419.052-6.843-.014-10.257a6.681,6.681,0,0,0-13.33-.454c-.086,3.567-.029,7.139-.038,10.706-1.181,0-2.361,0-3.537,0Q.007,10.145,0,.036Z"
+                    transform="translate(47.899 10.965)"
+                    fill="#21201f"
+                  />
+                  <path
+                    id="Path-7"
+                    data-name="Path"
+                    d="M.014,0Q1.742.007,3.48.01V20.267c-1.162,0-2.319,0-3.48-.01C.024,13.5.01,6.752.014,0Z"
+                    transform="translate(71.822 10.958)"
+                    fill="#21201f"
+                  />
+                  <path
+                    id="Path-8"
+                    data-name="Path"
+                    d="M0,.02c1.176,0,2.352,0,3.533.01,0,.788,0,1.581,0,2.378A10.574,10.574,0,0,1,10.093.016a10.389,10.389,0,0,1,8.574,4.341A10.383,10.383,0,0,1,27.76.035a10.172,10.172,0,0,1,9.531,9.412c.11,3.6,0,7.2.048,10.8q-1.771.007-3.537,0c0-3.414.033-6.834-.019-10.243a6.668,6.668,0,0,0-13.3-.516c-.219,3.577-.052,7.163-.057,10.745-1.176,0-2.342,0-3.513.01,0-3.6.2-7.206-.057-10.8A6.672,6.672,0,0,0,3.571,9.59c-.081,3.548-.024,7.1-.033,10.649L0,20.254Q.014,10.139,0,.02Z"
+                    transform="translate(78.816 10.971)"
+                    fill="#21201f"
+                  />
+                  <path
+                    id="Shape"
+                    d="M10.35,20.258c-.179,0-.36-.005-.539-.016a9.894,9.894,0,0,1-6.636-2.827A10,10,0,0,1,1.921,4.24,9.974,9.974,0,0,1,7.622.314,11.01,11.01,0,0,1,10.233,0a10.166,10.166,0,0,1,9.506,6.455A10.034,10.034,0,0,1,16.6,18,10.124,10.124,0,0,1,10.35,20.258Zm-.093-16.8h0a5.782,5.782,0,0,0-1.25.136,6.706,6.706,0,0,0-5.36,5.382,6.352,6.352,0,0,0,1.013,4.8,6.493,6.493,0,0,0,4.147,2.818,5.8,5.8,0,0,0,1.441.18A6.817,6.817,0,0,0,14.8,14.931a6.141,6.141,0,0,0,2.07-4.441,6.087,6.087,0,0,0-1.631-4.732,6.852,6.852,0,0,0-4.979-2.305Z"
+                    transform="translate(119.621 10.959)"
+                    fill="#21201f"
+                  />
+                  <path
+                    id="Path-9"
+                    data-name="Path"
+                    d="M.173,8.16A10.209,10.209,0,0,1,18.316,4.067c2.142,2.6,2.176,6.1,2.042,9.3-4.456-.019-8.912,0-13.368,0,0-1.151,0-2.3,0-3.443,3.333-.024,6.67.038,10.007-.043A7.325,7.325,0,0,0,12.77,4.053a6.705,6.705,0,0,0-9.1,4.584,6.689,6.689,0,0,0,5.818,8.1c3.618.205,7.246.024,10.874.1q.007,1.726.01,3.457c-3.471-.038-6.941.01-10.412-.019a10.32,10.32,0,0,1-8.893-5.535A10.342,10.342,0,0,1,.173,8.16Z"
+                    transform="translate(167.499 10.864)"
+                    fill="#21201f"
+                  />
+                </g>
+              </svg>
+            </div>
+            <a href="https://www.banimode.com/apps/">
+              <div class="app">دانلود اپلیکیشن</div>
+            </a>
+  
+            <div class="social">
+              <ul>
+                <li>
+                  <a href="https://www.aparat.com/banimode" target="_blank"
+                    ><img src="./images/social/footer-aparat.svg" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/banimodecom" target="_blank"
+                    ><img src="./images/social/footer-insta.svg" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://www.twitter.com/Banimodeir" target="_blank"
+                    ><img src="./images/social/footer-twitter.svg" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://www.t.me/banimodecom" target="_blank"
+                    ><img src="./images/social/footer-telegram.svg" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </div>
+            <img src="./images/social/banimag.png" alt="" />
+          </div>
+          </div>
+        
+        </div>
+      </footer> 
+      <!-- EndFooter  -->
+    </div>
+
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".intro-silder", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+    var swiper = new Swiper(".new", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+         autoplay: {
+        //   delay: 2500,
+          disableOnInteraction: false,
+         },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+        },
+      });
+  </script>
+ 
+  </body>
+</html>

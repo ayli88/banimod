@@ -1,0 +1,109 @@
+.hypo-sales
+{
+    width: 100%;
+    height: 305px;
+    /* background-color: purple; */
+    text-align: center;
+    position: relative;
+    right: calc(50% - 1425px / 2);
+    font-family: persian;
+    padding: 20px;
+    display: flex;
+    perspective: 800px;
+    font-family: persian;
+    
+}
+
+.hypo-sales .option
+{
+    width: 240px;
+    height: inherit;
+    vertical-align: middle;
+    padding: 20px;
+    margin-left: 60px;
+   position: relative;
+    z-index: 999;
+    
+}
+
+ /* .hypo-sales .option::after
+{
+    content: " ";
+    width: 100%;
+    height: calc(100% + 70px);
+    background-color: #fff;
+    opacity: .95;
+}  */
+
+/* .hypo-sales .cover
+{
+    width: 240px;
+    height: inherit;
+    background-color: #fff;
+    opacity: 0.1;
+    z-index:0;
+    display: inline-block;
+    background-image: url(../image/hypo-sales/circle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px;
+    margin-left: 60px;
+    background-origin: content-box;
+    position: relative;
+   
+}  */
+
+.hypo-sales .option .pics
+{
+  position: relative;
+}
+
+.hypo-sales .option .pics img
+
+.hypo-sales .option .pics .bCg
+{
+    width: 250px;
+    height: 350px;
+    background-color: transparent;
+    z-index: 0;
+}
+
+.hypo-sales .option .pics .bCg img
+{
+    width: 295px;
+    height: 366px;
+    object-fit: contain;
+    position: absolute;
+    right: -21px;
+    top: -41px;
+    z-index: 1;
+    opacity: .02;
+    transition: 300ms;
+}
+
+.hypo-sales .option .pics .bCg img:hover
+{
+    opacity: 0.3;
+    transition: 1300ms;
+    transition-delay: 500ms;
+}
+
+
+.hypo-sales .option h1
+{
+    font-size: 16px;
+}
+
+.hypo-sales .option p
+{
+    width: inherit;
+    height: 50px;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #666;
+    text-align: center;
+    z-index: 100;
+}

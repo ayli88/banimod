@@ -1,0 +1,39 @@
+@import url(./setting.css);
+@import url(.//header/header.css);
+@import url(./most.css);
+@import url(./slider.css);
+@import url(./products.css);
+@import url(./off.css);
+@import url(./product2.css);
+@import url(./most.css);
+@import url(./mostsaled.css);
+@import url(./news.css);
+@import url(./footer.css);
+@import url(./hypo-sales.css);
+@import url(./brands.css);
+@import url(./banimag.css);
+
+body
+{
+    min-height: 2000px;
+    perspective: 800px;
+    scroll-behavior: smooth;
+}
+
+:root
+{
+    --width-main: 1425px;
+}
+.container
+{
+    width: 100%;
+    font-family: perisan;
+}
+
+.main
+{
+    width: 1425px ;
+    text-align: center;
+    position: relative;
+    right: calc(50% - 1425px / 2);
+}

@@ -1,0 +1,18 @@
+@import url(./setting.css);
+@import url(./header/header.css);
+@import url(./intro/slider.css);
+@import url(./catagory.css);
+@import url(./catagory2.css);
+@import url(./new-slider.css);
+@import url(./catagory3.css);
+@import url(./footer.css);
+
+
+
+.main
+{
+    width: 1425px ;
+    text-align: center;
+    position: relative;
+    right: calc(50% - 1425px / 2);
+}

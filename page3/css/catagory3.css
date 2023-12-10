@@ -1,0 +1,55 @@
+.catagory3
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    height: 200px;
+}
+
+.catagory3 .pic1
+{
+    width: 690px;
+    height: 100%;
+    border-radius: 15px ;
+    overflow: hidden;
+
+}
+
+.catagory3 .pic1 img
+{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 15px ;
+    transition: 500ms;
+}
+
+.catagory3 .pic1 img:hover
+{
+    transform: scale(1.02,1.02);
+}
+
+.catagory3 .pic2
+{
+    width: 100%;
+    height: 200px;
+    margin-top: 120px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.catagory3 .pic2 img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover center;
+    border-radius: 15px;
+    transition: 500ms;
+}
+
+.catagory3 .pic2 img:hover
+{
+    transform: scale(1.02,1.02);
+}

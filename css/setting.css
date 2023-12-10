@@ -1,0 +1,62 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    /* perspective: 800px; */
+
+}
+
+@font-face {
+    font-family: persian;
+    src: url(../fonts/IRANYekanWebFn.eot);
+    src: url(../fonts/IRANYekanWebFn.ttf);
+    src: url(../fonts/IRANYekanWebFn.woff);
+    src: url(../fonts/IRANYekanWebFn.woff2);
+}
+
+:root
+{
+    --green:#00BF6F;
+    --boxSizing: border-box;
+    --width-menue: 85px;
+    --padding-right:16px;
+    --padding-left:16px;
+    
+}
+
+.swiper .swiper-button-next
+{
+  width: 30px;
+  height: 30px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+}
+
+.swiper .swiper-button-prev
+{
+  width: 30px;
+  height: 30px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+}
+
+.swiper .swiper-button-next, .swiper-button-prev::after
+{
+  transform: rotate(-90deg);
+  font-size: 20px;
+  color: black;
+  
+}
+
+.swiper-button-prev::after, .swiper-button-next::after
+{
+  font-size: 20px !important;
+  font-weight: bold;
+}
+.swiper .swiper-button-prev, .swiper-button-next::after
+{
+  transform: rotate(90deg);
+  font-size: 20px;
+  color: black;
+}

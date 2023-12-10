@@ -1,0 +1,180 @@
+.sales
+{
+  width: 100%;
+  height: 590px;
+}
+
+.Sales h2
+{
+  text-align: center;
+  font-family: persian;
+}
+
+.amazing
+{
+  width: 100%;
+  height: 550px;
+}
+
+.amazing .swiper {
+  width: 100%;
+  height: 100%;
+  display: flex ;
+}
+
+.amazing .swiper .swiper-wrapper
+{
+  width: 100%;
+  height: 100%;
+  display: flex ;
+
+}
+
+.amazing .swiper-slide {
+  width: 330px;
+  text-align: center;
+  font-size: 18px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px !important;
+  margin-left: 30px;
+}
+
+.amazing .swiper-slide img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 420px;
+  position: absolute;
+  top: 5px;
+  border-radius: 15px !important;
+
+  /* right: 5px; */
+}
+
+.amazing .swiper-slide .hover
+{
+  opacity: 0;
+}
+
+.amazing .swiper-slide .hover:hover
+{
+  opacity: 1;
+}
+
+.amazing .swiper-slide .details
+{
+  width: 100%;
+  height: calc(590px - 420px);
+  position: absolute;
+    top: 78%;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: repeat(4,50%);
+    grid-template-rows: 30%;
+   padding: px;
+   box-sizing: border-box;
+   justify-content: space-between;
+   font-family: persian;
+}
+
+.amazing .swiper-slide .details h4
+{
+  font-size: 25px;
+  text-align: right;
+}
+
+.amazing .swiper-slide .details span
+{
+  text-align: center;
+  color: var(--green);
+  text-align: left;
+}
+
+.amazing .swiper-slide .details .line-through
+{
+  text-decoration: line-through;
+  color: black;
+  
+}
+
+.amazing .swiper-slide .details p
+{
+  text-overflow: ellipsis;
+  text-wrap: nowrap;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+
+.swiper-slide .extra
+{
+  font-size: 35px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  box-shadow: 2px 2px 5px #666;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+position: relative;
+gap: 10px;
+  z-index: 1000;
+  opacity: 0;
+  position: absolute;
+  top: 50px;
+  right: 25px;
+}
+
+.swiper-slide .extra a
+{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  text-decoration: none;
+  color: black;
+}
+
+.swiper-slide .extra span
+{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-size: 35px;
+  line-height: 40px;
+  border-radius: 50%;
+background-color: white;
+  box-shadow: 2px 2px 5px #666;
+}
+
+
+.swiper-slide:hover .extra
+{
+ opacity: 1;
+}
+
+.all 
+{
+  width: 220px;
+  height: 40px;
+  border-radius: 24px;
+  text-align: center;
+  border: 2px solid #666;
+  line-height: 40px;
+  position: relative;
+  right: calc(50% - 220px / 2);
+}
+
+.all a
+{
+  color: var(--green);
+  text-decoration: none;
+  font-family: persian;
+}
+
+.all:hover
+{
+  border-color: var(--green);
+}

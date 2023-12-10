@@ -1,0 +1,74 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+ 
+
+}
+
+body
+{
+}
+
+@font-face {
+    font-family: persian;
+    src: url(../fonts/IRANYekanWebFn.eot);
+    src: url(../fonts/IRANYekanWebFn.ttf);
+    src: url(../fonts/IRANYekanWebFn.woff);
+    src: url(../fonts/IRANYekanWebFn.woff2);
+}
+
+:root
+{
+    --green:#00BF6F;
+    --boxSizing: border-box;
+    --width-menue: 85px;
+    --padding-right:16px;
+    --padding-left:16px;
+    
+}
+
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev, .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after
+{
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50%;
+  background-color: rgba(245, 245, 245, 0.479); 
+  vertical-align: top;
+  
+}
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after, .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after
+{
+  color: black;
+  font-size: 20px !important;
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.5 !important;
+}
+
+
+.swiper-button-next
+{
+  position: absolute;
+  bottom: 5% !important;
+   top: unset !important;
+ 
+}
+.swiper-button-prev
+{
+  position: absolute;
+  bottom: 5% !important;
+   top: unset !important;
+   width: unset !important;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next
+{
+  left: unset !important;
+  right: 3% !important;
+  height: unset !important;
+
+}
