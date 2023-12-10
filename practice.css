@@ -3,6 +3,7 @@
 {
   width: 100%;
   height: 685px;
+  background-color: red;
 }
 
 
@@ -13,7 +14,7 @@
     /* background-color: lightblue; */
     position: absolute;
     right: calc(50% - 1425px / 2);
-  
+  background-color: black;
     font-family: perisan;
 }
 
@@ -22,12 +23,13 @@
     width: 315px;
     height: 55px;
     object-fit: contain;
-   float: right;
+    position: relative;
+    right: 0;
   
 }
 
 
-.off .swiper {
+.off > .myswiper3 {
     width: 1420px;
     height: 530px;
     position: absolute;
@@ -35,7 +37,14 @@
     right: 0;
   }
 
- .off .swiper .swiper-slide {
+  .off  .myswiper3 .swiper-wrapper
+  {
+    width: 1420px;
+    height: 530px;
+    position: absolute;
+   
+  }
+ .off .myswiper3 .swiper-slide {
     text-align: center;
     font-size: 18px;
     /* background:gray; */
@@ -48,17 +57,17 @@
     overflow: hidden;
   }
 
-  .off .swiper .swiper-slide img
+  .off .myswiper3 .swiper-slide img
   {
     width: 330px;
     height: 390px;
     object-fit: cover;
-    position: absolute;
-    top: 0;
+    /* position: absolute;
+    top: 0; */
     border-radius: 5px;
-  } 
+  } */
 
-  .off .swiper .swiper-wrapper .swiper-slide::after
+  .off .myswiper3 .swiper-wrapper .swiper-slide::after
   {
     content: attr(data-discount);
     display: inline-block;
@@ -121,7 +130,7 @@
 
 
 
-  .off .swiper .swiper-slide span
+  .off .myswiper3 .swiper-slide span
   {
     text-align: right;
     color: black;
@@ -134,7 +143,7 @@
   
   }
 
-  .off .swiper .swiper-slide .off-price
+  .off .myswiper3 .swiper-slide .off-price
   {
     text-align: left;
     color: gray;
@@ -146,7 +155,7 @@
   
   }
 
-  .off .swiper .swiper-slide span a
+  .off .myswiper3 .swiper-slide span a
   {
    text-decoration: none;
    color: black;
@@ -155,7 +164,7 @@
    height: auto;
   }
 
-  .off .swiper .swiper-slide .details
+  .off .myswiper3 .swiper-slide .details
   {
     display: inline-block;
     width: 200px;
@@ -172,7 +181,7 @@
   
   }
 
-  .off .swiper .swiper-slide .price
+  .off .myswiper3 .swiper-slide .price
   {
     text-align: left;
     position: absolute;

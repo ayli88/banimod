@@ -8,6 +8,7 @@
     align-items: center;
     text-align: center;
     overflow: hidden;
+    row-gap: 10px;
 }
 
 
@@ -20,7 +21,7 @@
 
 .catagory .option img
 {
-   width: 180px;
+   width: 120px;
    height: inherit;
     object-fit: cover;
     transform: scale(1.1);

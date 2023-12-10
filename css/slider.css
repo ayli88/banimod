@@ -45,31 +45,26 @@
     border-radius: 25px;
 }
 
-.swiper {
-    width: inherit;
+.slider1 .center .right .swiper {
+    width: 100%;
     height: 100%;
-    position: relative;
   }
 
-  .swiper-slide {
+  .slider1 .center .right .swiper-slide {
     text-align: center;
-    font-size: 50px;
-    
+    font-size: 18px;
+    background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 25px;
   }
 
-  .swiper-slide img {
+  .slider1 .center .right .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 25px;
   }
-
- 
 
 
  .slider1 .center .right img
@@ -86,7 +81,6 @@
  {
     width: 930px;
     height: 430px;
-    /* display: inline-block; */
     margin-left: 20px;
     border-radius: 25px;
     vertical-align: top;
@@ -95,7 +89,7 @@
     
  }
   
- .slider1 .center .right2 img
+ .slider1 .center .right2  img
  {
     width: 100%;
     height: 100%;
@@ -118,6 +112,8 @@
     width: 1425px;
     height: 430px;
     display: flex;
+    margin-bottom: 20px;
+
 }
 
 
@@ -125,12 +121,18 @@
 {
     width: 430px;
     height: 430px;
-  
+  border-radius: 25px;
     vertical-align: top;
     border-radius: 25px;
     position: relative;
 }
 
+.slider2 .center .right2 img
+{
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+}
 .slider2 .center .left2
 {
     width: 930px;
@@ -171,58 +173,7 @@
 
 
 
-
-
-/* .swiper .swiper-button-next, .swiper-rtl .swiper-button-next
-{
-    width: 30px;
-    height: 30px;
-    background-color: whitesmoke;
-    border-radius: 50%;
-    
-    
-}
- .swiper-button-prev
-{
-    width: 30px !important;
-    height: 30px !important;
-    background-color: blue;
-    position: absolute;
-    bottom: 0;
-} */
-
-/* 
-.swiper .swiper-button-next, .swiper-rtl .swiper-button-prev::after
-{
-    font-size: 20px;
-    color: black;
-    transform: rotate(90deg);   
-   line-height: 30px;
-   text-align: center;
-}
-
-.swiper  .swiper-rtl .swiper-button-prev::after
-{
-    font-size:20px;
-    color: black;
-    transform: rotate(-90deg);   
-   line-height: 30px;
-   text-align: center;
-}
-
-.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after
-{
-    font-size: 20px;
-    color: black;
-    transform: rotate(-90deg);
-    line-height: 30px;
-    text-align: center;
-} */
-
-
-
 .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after
 {
     color: black;
-    /* transform: rotate(-90deg); */
 }

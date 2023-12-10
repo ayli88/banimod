@@ -44,7 +44,6 @@ body
 {
   color: black;
   font-size: 20px !important;
-  display: inline-block;
   font-weight: bold;
   text-align: center;
   line-height: 1.5 !important;
@@ -56,6 +55,7 @@ body
   position: absolute;
   bottom: 5% !important;
    top: unset !important;
+   left: 5% !important;
  
 }
 .swiper-button-prev
@@ -70,5 +70,10 @@ body
   left: unset !important;
   right: 3% !important;
   height: unset !important;
+}
 
+.swiper-button-next, .swiper-button-prev
+{
+  display: flex;
+  
 }
