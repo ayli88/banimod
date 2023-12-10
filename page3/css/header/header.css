@@ -58,6 +58,14 @@
 
     float: right
 }
+.header .middle .sign img
+{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 45%;
+    right: 5%;
+}
 
 .header .middle .search
 {
@@ -66,6 +74,14 @@
     display: inline-block;
     
     float: right;
+}
+.header .middle .search img
+{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 26%;
+    top: 50%;
 }
 
 .header .middle .main .search .searchbar input[type=search]

@@ -60,6 +60,15 @@
     float: right
 }
 
+.header .middle .sign img
+{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 45%;
+    right: 5%;
+}
+
 .header .middle .search
 {
     width: 710px;

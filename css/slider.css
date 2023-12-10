@@ -151,7 +151,7 @@
     object-fit: cover;
     border-radius: 25px;
 }
-
+/* 
 .slider1 .center .right .swiper-button-prev, .swiper-rtl .swiper-button-next
 {
     right: 5% !important;
@@ -169,7 +169,7 @@
 .slider2 .center .right2 .swiper-button-next, .slider2 .center .right2 .swiper-button-prev
 {
     top: 410px !important;
-}
+} */
 
 
 
